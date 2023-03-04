@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: antiquewhite;
+}
+.btn{
+    padding-right: 10px;
+    padding-top: 13px;
+    color: black; 
+}
+
+.modal-content {
+    height: 400px !important;
+    width: 600px !important;
+}
+
+.body {
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 650px) {
+    .main{
+        display:flexbox;
+    }
+    .modal-footer{
+        size-adjust: 20%;
+        ;
+    }
+  }
